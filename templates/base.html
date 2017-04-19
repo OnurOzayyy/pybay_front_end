@@ -4,7 +4,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Meetup</title>
+        <title>PyBay2017</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" media="all"/>
         <link href= "{% static 'css/flexslider.min.css' %}" rel="stylesheet" type="text/css" media="all"/>
@@ -40,7 +40,6 @@
 								<a href="index.html">
 									<img alt="Logo" class="logo logo-light" src="{% static 'img/PB_PNG.png' %}">
                                     <img alt="Logo" class="logo logo-dark" src= "{% static 'img/PB_PNG.png' %}">
-
 								</a>
 							</div>
 							<div class="col-md-10 text-right">
@@ -64,20 +63,16 @@
                                         <a href="https://www.facebook.com/PyBayConf" target="_blank"><i class="icon social_facebook"></i></a>
                                     </li>   
 								</ul>
-
 								<div class="sidebar-menu-toggle"><i class="icon icon_menu"></i></div>
 								<div class="mobile-menu-toggle"><i class="icon icon_menu"></i></div>
 							</div>
 						</div><!--end of row-->
 					</div><!--end of container-->
-
 					<div class="bottom-border"></div>
-
 					<div class="sidebar-menu">
 						<img alt="Logo" class="logo" src="{% static 'img/PB_PNG.png' %}">
 						<div class="bottom-border"></div>
 						<div class="sidebar-content">
-
 							<div class="widget">
 								<ul class="menu">
 									<li>
@@ -97,7 +92,6 @@
                                     </li>
 								</ul>
 							</div>
-
 							<div class="widget">
 								<ul class="social-profiles">
 									<li><a href="https://twitter.com/py_bay" target="_blank"><i class="icon social_twitter"></i></a></li>
@@ -106,12 +100,9 @@
 							</div>
 						</div><!--end of sidebar content-->
 					</div><!--end of sidebar-->
-
-					<div class="instagram-sidebar">
-
-					</div>
+					<div class="instagram-sidebar"></div>
 				</nav>
-		</div>
+		</div><!--end nav container-->
         {% endblock header %}
         {% block headeroption %}
 		<section class="hero-slider">
@@ -126,12 +117,10 @@
 							<div class="row">
 								<div class="col-md-6 col-sm-6">
 									<h1 class="large-h1 text-white">Bringing together Python's most forward thinking innovators &amp; developers.</h1>
-								</div>
-								
+								</div>						
 							</div><!--end of row-->
 						</div><!--end of container-->
 					</li>
-					
 					<li class="hero-slide">
 						<div class="background-image-holder parallax-background">
 							<img class="background-image" alt="Background Image" src="img/hero2.jpg">
@@ -148,12 +137,10 @@
 							</div><!--end of row-->
 						</div><!--end of container-->
 					</li>
-					
 					<li class="hero-slide">
 						<div class="background-image-holder parallax-background">
 							<img class="background-image" alt="Background Image" src="img/hero1.jpg">
 						</div>
-					
 						<div class="container">
 							<div class="row">
 								<div class="col-md-6 col-sm-6">
@@ -167,7 +154,7 @@
 					</li>
                     {% endblock sliders %}
 				</ul>
-			</section>
+          </section>
      {% endblock headeroption %}
 
     {% block content %}
@@ -213,7 +200,7 @@
 					<div class="row">
 						<div class="col-sm-3">
 							<ul class="menu">
-								<li><a href="#">CODE OF CONDUCT</a></li>
+								<li><a href="/codeOfConduct">CODE OF CONDUCT</a></li>
 								<li><a href="#">About</a></li>
 								<li><a href="#">Contact</a></li>
 								<li><a class="inner-link back-to-top" href="#top">Back To Top</a></li>
@@ -231,8 +218,8 @@
 					<div class="row">
 						<div class="col-sm-12 text-center">
 							<ul class="social-profiles">
-								<li><a href="#"><i class="icon social_twitter"></i></a></li>
-								<li><a href="#"><i class="icon social_facebook"></i></a></li>
+								<li><a href="https://twitter.com/py_bay" target="_blank"><i class="icon social_twitter"></i></a></li>
+								<li><a href="https://www.facebook.com/PyBayConf" target="_blank"><i class="icon social_facebook"></i></a></li>
 							</ul>
 						</div>
 					</div><!--end of row-->
